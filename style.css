@@ -1,0 +1,162 @@
+/* Estilização da Imagem Principal */
+
+img {
+    width: 300px;
+    height: 300px;
+}
+h3{
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+h4:hover{
+    
+    background-color: rgb(141, 141, 250);
+    font-size: 20px;
+    transition: all 0.8s ease-in-out;
+    border-radius: 7px;
+}
+
+
+/* Estilização do Corpo */
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: black;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(Img/imgFundo_2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-weight: bolder;
+opacity: 1.2;
+}
+
+
+
+
+main.container {
+    background: white;
+    min-width: 300px;
+    min-height: 50vh;
+    padding: 3rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+
+
+/* Padronização em Width 300px para todos */
+
+.descricao {
+    
+    width: 300px;
+}
+
+.descricao h2 {
+    margin-bottom: 5px;
+}
+
+.duracao {
+    width: 300px;
+    margin-top: 25px;
+}
+
+/*Borda Criada para Barra de Rolagem no HTML */
+.barra {
+    width: 300px;
+    height: 15px;
+    border: 2px solid rgb(241, 49, 49);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+/* Barra Criada Pela HTML */
+progress {
+    width: 0%;
+    height: 15px;
+    background-color: #333;
+}
+
+/* Criação da Bolinha em CSS para Rolagem da Reproduzação */
+
+.ponto {
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 40px;
+    margin-left: -5px;
+
+}
+
+
+.tempo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    color:black;
+    font-size: 20px;
+
+}
+/* melhorar visulização do Botões */
+.tempo:hover{
+    font-size: 21px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/* Design do Botões */
+
+
+.player {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 13px
+}
+
+
+.botao-play,
+.botao-pause {
+    font-size: 65px;
+    cursor: pointer;
+}
+
+
+.setas {
+    font-size: 60px;
+    cursor: pointer;
+}
+
+
+.botao-pause {
+    display: none;
+}
+
+
+.botao-play:hover{
+    font-size: 68px;
+}
+
+.botao-pause:hover{
+    font-size: 67px
+}
+
+.setas:hover{
+    font-size: 62px;
+}
